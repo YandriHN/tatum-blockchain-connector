@@ -10,9 +10,8 @@ import {
   prepareAlgoSignedTransaction
 } from '@tatumio/tatum';
 
-import {BroadcastOrStoreKMSTransaction} from '@tatumio/blockchain-connector-common';
+import {BroadcastOrStoreKMSTransaction, AlgoNodeType} from '@tatumio/blockchain-connector-common';
 import {AlgoError} from './AlgoError';
-import {AlgoNodeType} from './AlgoNodeType';
 
 export abstract class AlgoService {
 
